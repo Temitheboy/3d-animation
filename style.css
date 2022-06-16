@@ -11,10 +11,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .container {
     width: 800px;
+    background-color: lightblue;
 }
 
 .iPhone {
@@ -27,6 +29,8 @@ body {
     border: 2px solid #a0a0a0;
     padding: 0 15px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2) 0px 0px 50px rgba(0, 0, 0, 0.2);
+    /* Animation */
+    transform-style: preserve-3d;
 }
 
 .header {
@@ -90,4 +94,13 @@ body {
 max-width: 90px;
 margin: 10px auto 20px;
 display: table;
+
+/* Animation */
+transition: all 0.75s ease-out;
+}
+
+.donut {
+    max-width: 140px;
+    max-width: 10px auto;
+    display: table;
 }
