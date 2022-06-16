@@ -68,6 +68,9 @@ body {
     font-size: 15px;
     text-align: center;
     font-weight: normal;
+    
+/* Animation */
+transition: all 0.75s ease-out;
 }
 
 .menu_bar div {
