@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+}
+
+.iPhone {
+    height: 480px;
+    width: 268px;
+    background-color: #f1f1ef;
+    display: table;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 2px solid #a0a0a0;
+    padding: 0 15px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2) 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    min-height: 65px;
+    position: relative;
+}
+
+.camera {
+    background-color: #000;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    border-radius: 50%;
+}
+
+.speaker {
+    background-color: #000;
+    height: 5px;
+    width: 50px;
+    position: absolute;
+    top: 32px;
+    left: 100px;
+    border-radius: 3px;
+}
+
+.content {
+    border: 2px solid #000;
+    height: 350px;
+    background-color: #fff;
+}
+
+.text {
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.menu_bar div {
+    flex-grow: 1;
+}
+
+.menu_bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 0 0;
+    box-shadow: 0px 9px 20px #00000033;
+}
+
+.menu_bar .menuIcon {
+    width: 30px;
+}
+
+.menu_bar .logo {
+    width: 100px;
+}
+
+.dunkinLogo {
+max-width: 90px;
+margin: 10px auto 20px;
+display: table;
+}
